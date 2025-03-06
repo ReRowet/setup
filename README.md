@@ -22,6 +22,10 @@
     ```
     rm -rf nama-folder/file
     ```
+6. msuk folder
+   ```
+   cd nama-file
+   ```
 ### INSTAL GIT
 
 1. install git
