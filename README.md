@@ -70,7 +70,7 @@
     ```
     sudo apt remove screen
     ```
-### 4. Docker
+### INSTALL Docker
 
 1. install docker
     ```
