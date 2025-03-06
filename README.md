@@ -1,4 +1,4 @@
-# Setup
+# SETUP
 
 ### MEMBUAT BUAT & HAPUS FOLDER/FILE
 
@@ -6,78 +6,78 @@
     ```bash
     mkdir nama-folder
     ```
+2. check folder
+    ```
+    ls
+    ```
+3. buat file
+    ```
+    nano nama-file
+    ```
+4. save file nano
+    ```
+    CTRL + X + Y + `Enter`
+    ```
+5. hapus-file-folder
+    ```
+    rm -rf nama-folder/file
+    ```
+### INSTAL GIT
 
-|#check folder
-|```
-|ls
-|```
-```
-#buat file
-nano nama-file
-```
-```
-#save file nano
-CTRL + X + Y + `Enter`
-```
-```
-#hapus-file-folder
-rm -rf nama-folder/file
-```
-### 2. GIT
+1. install git
+    ```
+    apt install git
+    ```
+2. check versi git
+    ```
+    git --version
+    ```
+3. clone GitHub
+    ```
+    git clone link-github-yg-mau-di-clone
+    ```
+4. hapus git
+    ```
+    sudo apt remove git
+    ```
+### INSTALL SCREEN
 
-```
-#install git
-apt install git
-```
-```
-#check versi git
-git --version
-```
-```
-#clone GitHub
-git clone link-github-yg-mau-di-clone
-```
-```
-#hapus git
-sudo apt remove git
-```
-### 3. SCREEN
-
-```
-#install screen
-apt install screen
-```
-```
-#buat screen
-screen -S namascreen
-```
-```
-#simpan screen
-CTRL + A + D
-```
-```
-#balik ke screen yang ada
-screen -r namascreen
-```
-```
-#check screen yang berjalan
-screen -ls
-```
-```
-#hapus screen
-screen -X -S namascreen quit
-```
-```
-#uninstall screen
-sudo apt remove screen
-```
+1. install screen
+    ```
+    apt install screen
+    ```
+2. buat screen
+    ```
+    screen -S namascreen
+    ```
+3. simpan screen
+    ```
+    CTRL + A + D
+    ```
+4. balik ke screen yang ada
+    ```
+    screen -r namascreen
+    ```
+5. check screen yang berjalan
+    ```
+    screen -ls
+    ```
+6. hapus screen
+    ```
+    screen -X -S namascreen quit
+    ```
+7. uninstall screen
+    ```
+    sudo apt remove screen
+    ```
 ### 4. Docker
+
+1. install docker
+    ```
+    sudo apt-get install -y ca-certificates curl gnupg lsb-release && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null && sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io && sudo apt-mark hold docker-ce docker-ce-cli containerd.io
+    ```
+2. lihat list docker yang berjalan
 ```
-#install docker
-sudo apt-get install -y ca-certificates curl gnupg lsb-release && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null && sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io && sudo apt-mark hold docker-ce docker-ce-cli containerd.io
-```
-```
-#lihat list docker yang berjalan
 docker ps -a
 ```
 ```
@@ -125,12 +125,12 @@ sudo apt-get update && sudo apt-get install -y software-properties-common && sud
 #uninstall python
 sudo apt-get remove --purge -y python3.* && sudo apt-get autoremove -y && sudo apt-get autoclean
 ```
-```
 #menjalankan/run file py (python)
-python3 namafile.py
-```
-### 8. Update Sistem VPS
-```
-sudo apt update && sudo apt upgrade -y
-sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc jq chrony liblz4-tool -y
-```
+    ```
+    python3 namafile.py
+    ```
+### Update Sistem VPS
+    ```
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc jq chrony liblz4-tool -y
+    ```
