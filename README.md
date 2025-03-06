@@ -1,12 +1,11 @@
 # Setup
 
-### 1. BUAT & HAPUS FOLDER/FILE
+### MEMBUAT BUAT & HAPUS FOLDER/FILE
 
-#buat folder
-
-  ```bash
-  mkdir nama-folder
-  ```
+1. buat folder
+    ```bash
+    mkdir nama-folder
+    ```
 
 |#check folder
 |```
