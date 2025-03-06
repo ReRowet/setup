@@ -4,9 +4,9 @@
 
 #buat folder
 
-  ```
-  mkdir nama-folder
-  ```
+ | ```
+ | mkdir nama-folder
+ | ```
 
 |#check folder
 |```
