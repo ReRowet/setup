@@ -2,11 +2,11 @@
 
 ### 1. BUAT & HAPUS FOLDER/FILE
 
-|#buat folder
+#buat folder
 
-|```
-|mkdir nama-folder
-|```
+  ```
+  mkdir nama-folder
+  ```
 
 |#check folder
 |```
