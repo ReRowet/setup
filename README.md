@@ -3,9 +3,11 @@
 ### 1. BUAT & HAPUS FOLDER/FILE
 
 |#buat folder
+
 |```
 |mkdir nama-folder
 |```
+
 |#check folder
 |```
 |ls
